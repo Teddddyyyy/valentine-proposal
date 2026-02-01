@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7e6e6;
+    /* Light pink background */
+    font-family: 'Protest Riot', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #d32f2f;
+    /* Deep red */
+    margin: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.yes-button {
+    background-color: #4caf50;
+    /* Green */
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.no-button {
+    background-color: #f44336;
+    /* Red */
+    color: white;
+    font-size: 16px;
+}
+
+.no-button:hover {
+    background-color: #e53935;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: #c62828;
+}
+
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
